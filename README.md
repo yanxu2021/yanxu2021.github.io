@@ -1,8 +1,8 @@
 # yanxu2021.github.io
 
-LERAN Academy JumpStart Weekend Project
+## LERAN Academy JumpStart Weekend Project
 
-<p>Here are the rules for the game</p>
+### Here are the rules for the game
   <ul>
     <li>&#x1f332; Click the boxes to reveal what’s on the map</li>
     <li>&#128163; If you click on the bomb, you lose</li>
@@ -16,5 +16,5 @@ LERAN Academy JumpStart Weekend Project
 <img src="https://github.com/yanxu2021/yanxu2021.github.io/blob/main/img/4.JPG" alt="Treasure">
 <img src="https://github.com/yanxu2021/yanxu2021.github.io/blob/main/img/5.JPG" alt="Treasure">
 
-❥(^_-)copyright@yanxu2021
+## ❥(^_-)copyright@yanxu2021
 
