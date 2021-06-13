@@ -8,7 +8,7 @@
     <li>&#128163; If you click on the bomb, you lose</li>
     <li>&#x1f308; If you click on the treasure, you win</li>
   </ul>
-  <p>Good Luck!</p>
+  <p>Good Luck!</p>https://yanxu2021.github.io/
 
 <img src="https://github.com/yanxu2021/yanxu2021.github.io/blob/main/img/1.JPG" alt="Treasure">
 <img src="https://github.com/yanxu2021/yanxu2021.github.io/blob/main/img/2.JPG" alt="Treasure">
