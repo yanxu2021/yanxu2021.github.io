@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Treasure Hunt</title>
+    <link rel="icon" type="jpg" sizes="16x16" href="favico.jpg">
+    <link rel="stylesheet" href="treasure.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+  </div>
+
+  <img src="https://cdn.holyfiregames.com/Gazpo.io/logos/treasure-hunter-medieval-logo-fully-render.png" alt="Treasure" height="200px">
+
+  <h1>Treasure Hunt Game</h1>
+  <h2 id="sentence">BECOME A TREASURE HUNTER</h2>
+  <button type="button" name="button" onclick="changeSentence()">READY</button>
+
+<div id="rules-text">
+  <p>Here are the rules for the game</p>
+  <ul>
+    <li>&#x1f332; Click the boxes to reveal what’s on the map</li>
+    <li>&#128163; If you click on the bomb, you lose</li>
+    <li>&#x1f308; If you click on the treasure, you win</li>
+  </ul>
+  <p>Good Luck!</p>
+</div>
+
+<!--Game Board-->
+<div id="gameBoard">
+  <table>
+    <tr>
+      <!--Add an onclick attribute to all the nested table tags-->
+      <!--Add a unique id (numbers 0-8) to all <td></td> tags so we can identify which td was clicked and perform an action on the correct location-->
+      <td id=0 onClick="treasure(0)">&#128176;</td>
+      <td id=1 onClick="treasure(1)">&#128176;</td>
+      <td id=2 onClick="treasure(2)">&#128176;</td>
+    </tr\>
+    <tr>
+      <td id=3 onClick="treasure(3)">&#128176;</td>
+      <td id=4 onClick="treasure(4)">&#128176;</td>
+      <td id=5 onClick="treasure(5)">&#128176;</td>
+    </tr\>
+    <tr>
+      <td id=6 onClick="treasure(6)">&#128176;</td>
+      <td id=7 onClick="treasure(7)">&#128176;</td>
+      <td id=8 onClick="treasure(8)">&#128176;</td>
+    </tr\>
+  </table>
+</div>
+
+
+
+  <!--Add an onclick to the button that will refresh the page, resetting the game board-->
+  <p><button type="button" name="button" onClick="location.reload()">Restart Game</button></p>
+
+  <h2>Turns Left: <a id="counter">3</a></h2>
+
+  <footer><a href="https://treasurehunt.com" target="_blank">treasurehunt.com</a>  ❥(^_-)copyright@2021</footer>
+  <script type="text/javascript" src="treasure.js"></script>
+</body>
+</html>
